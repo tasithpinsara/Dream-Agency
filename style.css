@@ -1,0 +1,496 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  font-family: "Hind Vadodara", sans-serif;
+}
+.conatiner {
+  font-family: "Hind Vadodara", sans-serif;
+  margin-inline: auto;
+  width: calc(100% - 32px);
+  max-width: 1270px;
+  display: flex;
+  justify-items: left;
+  align-items: center;
+}
+
+.background-img {
+  margin-left: 770px;
+}
+
+.logo-border {
+  margin-left: 1100px;
+  margin-top: -690px;
+}
+
+.logo-border .border {
+  margin-left: 10px;
+}
+
+.socialMedia-logo .logo {
+  margin-left: 42px;
+}
+
+.socialMedia-logo {
+  margin-left: 1080px;
+  margin-top: -43px;
+}
+ul {
+  display: flex;
+  align-items: center;
+  float: left;
+  justify-content: center;
+  margin-top: -25px;
+  margin-left: -30px;
+}
+
+ul li {
+  list-style: none;
+  justify-content: center;
+}
+
+ul li a span {
+  font-weight: 600;
+  color: #331b3b;
+  font-size: 16px;
+  margin-bottom: 400px;
+}
+
+ul li a {
+  text-decoration: none;
+  margin-left: 40px;
+  color: #331b3b;
+  font-size: 16px;
+  justify-content: center;
+  transition: 0.1s ease-in-out;
+  font-weight: 400;
+}
+
+ul h3 {
+  color: #331b3b;
+  letter-spacing: 0.24px;
+  font-size: 26px;
+  margin-left: 180px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.Heding01 {
+  margin-top: 165px;
+  margin-left: 15px;
+}
+
+.Heding01 h1 .bold-word {
+  color: #331b3b;
+  font-size: 85px;
+  line-height: 86.83px;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.Heding01 h1 {
+  color: #331b3b;
+  font-size: 85px;
+  font-weight: 50;
+  line-height: 86.83px;
+}
+
+.Heding01 h1 .highlight-word {
+  color: #331b3b;
+  font-size: 85px;
+  line-height: 86.83px;
+  background: linear-gradient(to bottom, transparent 65%, #fdc221 50%);
+}
+
+.Heding01 p {
+  margin-top: 50px;
+  color: #331b3b;
+  font-family: "Hind Vadodara", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24.87px;
+  letter-spacing: 0.34px;
+}
+
+.Heding01 button {
+  color: white;
+  background-color: #331b3b;
+  border-radius: 10px;
+  font-family: "Hind Vadodara", sans-serif;
+  border: none;
+  font-size: 17px;
+  font-weight: 00;
+  text-transform: uppercase;
+  line-height: 23.34px;
+  letter-spacing: 0.34px;
+  margin-top: 35px;
+  padding: 21px;
+  padding-left: 52px;
+  padding-right: 52px;
+  cursor: pointer;
+  transition: (ease-in-out);
+}
+
+.Heding01 button:hover {
+  background-color: #492c52;
+}
+
+.main-img01 {
+  margin-left: 590px;
+  margin-top: -800px;
+}
+
+.main-img02 {
+  margin-top: -530px;
+}
+
+.Heding02 {
+  margin-top: 110px;
+  justify-items: center;
+  text-align: center;
+}
+
+.Heding02 h1 .bold-word {
+  color: #331b3b;
+  font-size: 48px;
+  font-family: sans-serif;
+  line-height: 51.02px;
+  font-weight: 900;
+  letter-spacing: -2.5px;
+  word-wrap: break-word;
+}
+
+.Heding02 h1 {
+  color: #331b3b;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 51.02px;
+}
+
+.Heding02 h1 .highlight-word {
+  color: #331b3b;
+  font-size: 48px;
+  line-height: 51.02px;
+  background: linear-gradient(to bottom, transparent 65%, #fdc221 50%);
+}
+
+.Heding02 img {
+  margin-left: 850px;
+  margin-top: -40px;
+}
+
+.boxes {
+  margin-top: -370px;
+  margin-left: 210px;
+  display: flex;
+}
+
+.boxes .border {
+  margin-left: 40px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 18px;
+  padding-right: 33px;
+  box-shadow: 0px 0px 41px -14px rgba(0, 0, 0, 0.22);
+}
+
+.boxes .border img {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffded4;
+}
+
+.boxes .mobile-APP-Development-box3 .border img {
+  background-color: #d4f0ff;
+}
+
+.boxes .border p span {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 30.97px;
+  letter-spacing: 0.88px;
+  color: #331b3b;
+}
+
+.boxes .border p {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21.79px;
+  letter-spacing: 0.3px;
+  color: rgba(51, 27, 59, 0.66);
+}
+
+.section02 {
+  border-top-right-radius: 500px;
+  margin-top: 170px;
+  margin-left: -px;
+  padding-bottom: 80px;
+  padding-top: 30px;
+  background-color: #ecf7ff;
+  width: 1250px;
+}
+
+.arow-img {
+  margin-left: 100px;
+  cursor: pointer;
+}
+
+.section03 {
+  margin-left: 750px;
+  margin-top: 400px;
+}
+
+h1 .bold-word {
+  color: #331b3b;
+  font-size: 48px;
+  font-family: "Hind Vadodara", sans-serif;
+  line-height: 51.02px;
+  font-weight: 900;
+  word-wrap: break-word;
+}
+
+h1 {
+  color: #331b3b;
+  font-family: "Hind Vadodara", sans-serif;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 51.02px;
+}
+
+h1 .highlight-word {
+  color: #331b3b;
+  font-size: 48px;
+  line-height: 51.02px;
+  background: linear-gradient(to bottom, transparent 65%, #fdc221 50%);
+}
+
+.section03 p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.79px;
+  letter-spacing: 0.3px;
+  color: rgba(51, 27, 59, 0.66);
+  margin-top: 30px;
+}
+
+.section03 button {
+  color: white;
+  font-family: "Hind Vadodara", sans-serif;
+  background-color: #331b3b;
+  border-radius: 10px;
+  border: none;
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 23.34px;
+  letter-spacing: 0.34px;
+  margin-top: 35px;
+  padding: 21px;
+  padding-left: 52px;
+  padding-right: 52px;
+  cursor: pointer;
+  transition: (ease-in-out);
+}
+
+.section03 button:hover {
+  background-color: #492c52;
+}
+
+.Marketing-box4 {
+  margin-left: 1250px;
+  margin-top: -314px;
+  border-radius: 15px;
+  width: 110px;
+  background-color: white;
+  padding: 18px;
+  padding-right: 33px;
+}
+
+.Marketing-box4 img {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffded4;
+}
+
+.Marketing-box4 p span {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 30.97px;
+  letter-spacing: 0.88px;
+  color: #331b3b;
+}
+
+.Marketing-box4 p {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21.79px;
+  letter-spacing: 0.3px;
+  color: rgba(51, 27, 59, 0.66);
+}
+
+.section04 {
+  margin-top: 180px;
+  padding-top: -30px;
+  margin-left: 10px;
+  background-color: #ffded44d;
+  border-top-left-radius: 450px;
+}
+
+.section04 p {
+  color: #331b3b;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24.87px;
+  letter-spacing: 0.38px;
+  margin-left: 765px;
+  padding-bottom: 89px;
+}
+
+.section04-boxes {
+  display: flex;
+  margin-left: 150px;
+}
+.section04-boxes .box {
+  background-color: white;
+  margin-left: 50px;
+  border-radius: 15px;
+  padding-top: 24px;
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-bottom: 20px;
+  box-shadow: 0px 0px 41px -12px rgba(0, 0, 0, 0.22);
+}
+
+.section04-boxes .box img {
+  padding-left: 5px;
+}
+
+.section04-boxes .box h3 {
+  color: #331b3b;
+  margin-top: -28px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35.11px;
+}
+
+.section04-boxes .box button {
+  margin-left: 300px;
+  font-size: 14px;
+  background-color: white;
+  border: 0.3px solid #331b3b;
+  padding: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.section05 {
+  margin-top: 85px;
+}
+
+.section05 .section05-topic {
+  text-align: center;
+}
+
+.section05 .para {
+  display: flex;
+  margin-top: 100px;
+  margin-left: 120px;
+}
+
+.section05 .para div {
+  margin-left: 72px;
+  box-shadow: 0px 0px 41px -12px rgba(0, 0, 0, 0.22);
+  padding-right: 29px;
+  padding-left: 35px;
+  padding-top: 24px;
+  padding-bottom: 39px;
+}
+
+.section05 .para div p {
+  color: #331b3b;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.49px;
+  letter-spacing: 0.32px;
+}
+
+.section05 .para div p span {
+  color: black;
+  font-size: 16px;
+  margin-top: 50px;
+  font-weight: 600;
+  line-height: 25.49px;
+  letter-spacing: 0.4px;
+}
+
+.section06 {
+  border: 1px solid black;
+  width: 1300px;
+  border-top-right-radius: 180px;
+  padding: 55px 12px 55px 20px;
+  background-color: black;
+  margin-top: 80px;
+}
+
+.section06 h1 {
+  color: rgb(255, 255, 255);
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-family: Playfair Display;
+  font-weight: 700;
+  letter-spacing: 0.36px;
+}
+.section06 p {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.49px;
+  letter-spacing: 0.32px;
+}
+
+.section06 h3 {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  margin-top: 25px;
+  font-weight: 600;
+  line-height: 25.49px;
+  letter-spacing: 0.32px;
+}
+
+.sub-email-input {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  border: 1px solid rgb(255, 255, 255);
+  width: 250px;
+  padding: 11px;
+  font-weight: 400;
+  margin-top: -49px;
+  line-height: 25.49px;
+  letter-spacing: 0.32px;
+  background-color: #000000;
+}
+
+.submit-button {
+  color: black;
+  background-color: white;
+  border: 1px solid rgb(255, 255, 255);
+  margin-top: 15px;
+  padding: 16px;
+  padding-left: 50px;
+  padding-right: 50px;
+  cursor: pointer;
+}
+
+.map {
+  margin-left: 700px;
+  margin-top: -280px;
+}
