@@ -222,21 +222,12 @@ ul h3 {
   color: #331b3b;
   font-size: 48px;
   line-height: 51.02px;
-  position: relative;  
+  background: linear-gradient(to bottom, transparent 65%, #fdc221 50%);
 
 
 }
 
-.Heding02 h1 .highlight-word-02::before{
-  content: ""; 
-  position: static;
-   left: 12%; 
-  bottom: 16px; 
-  width: 85px;
-  height: 7px;
-  background: #fdc221;
-  z-index: -1;
-}
+
 
 .Heding02 img {
   margin-left: 850px;
@@ -413,6 +404,44 @@ h1 .highlight-word-03::before{
   left: 12%;
   bottom: 16px;
   width: 85px;
+  height: 7px;
+  background: #fdc221;
+  z-index: -1;
+}
+
+h1 .highlight-word-04 {
+  color: #331b3b;
+  font-size: 48px;
+  line-height: 51.02px;
+  position: relative;
+
+}
+
+h1 .highlight-word-04::before{
+  content: ""; 
+  position: absolute;
+  left: 10%;
+  bottom: 16px;
+  width: 146px;
+  height: 7px;
+  background: #fdc221;
+  z-index: -1;
+}
+
+h1 .highlight-word-06 {
+  color: #331b3b;
+  font-size: 48px;
+  line-height: 51.02px;
+  position: relative;
+
+}
+
+h1 .highlight-word-06::before{
+  content: ""; 
+  position: absolute;
+  left: 2%;
+  bottom: 16px;
+  width: 130px;
   height: 7px;
   background: #fdc221;
   z-index: -1;

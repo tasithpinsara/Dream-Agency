@@ -5,7 +5,6 @@ let chard = document.querySelector(".boxes");
 let next_btn = document.getElementById("next-btn");
 let back_btn = document.getElementById("back-btn");
 
-
 chard.addEventListener("wheel", (evt) => {
 evt.preventDefault();
 chard.scrollLeft += evt.deltaY;
