@@ -31,27 +31,25 @@ body {
   margin-left: 10px;
 }
 
-.socialMedia-logo .logo1{
+.socialMedia-logo .logo1 {
   margin-left: 45px;
 }
 
-.socialMedia-logo .logo2{
+.socialMedia-logo .logo2 {
   margin-left: 42px;
   margin-bottom: 4px;
 }
 
-.socialMedia-logo .logo3{
+.socialMedia-logo .logo3 {
   margin-left: 35px;
 }
-
-
 
 .socialMedia-logo {
   margin-left: 1080px;
   margin-top: -43px;
 }
 
-.nav-bar{
+.nav-bar {
   display: flex;
 }
 ul {
@@ -75,11 +73,10 @@ ul li a span {
   transition: 0.2s ease-in-out;
 }
 
-ul li a span{
+ul li a span {
   font-weight: 700;
-  text-decoration: underline #FDC221 2px;
+  text-decoration: underline #fdc221 2px;
   text-underline-offset: 2px;
-
 }
 
 ul li a {
@@ -89,15 +86,14 @@ ul li a {
   cursor: pointer;
   justify-content: center;
   font-weight: 400;
-  transition: .6s;
+  transition: 0.6s;
 }
 
-ul li a:hover{
+ul li a:hover {
   font-weight: 700;
-  text-decoration: underline #FDC221 2px;
+  text-decoration: underline #fdc221 2px;
   text-underline-offset: 2px;
 }
-
 
 ul h3 {
   color: #331b3b;
@@ -133,20 +129,17 @@ ul h3 {
   line-height: 86.83px;
   font-size: 85px;
   position: relative;
-
 }
 
-.Heding01 h1 .highlight-word-01::before{
-  content: ""; 
-  position: absolute; 
+.Heding01 h1 .highlight-word-01::before {
+  content: "";
+  position: absolute;
   bottom: 16px;
   width: 300px;
   height: 30px;
   background: #fdc221;
   z-index: -1;
 }
-
-
 
 .Heding01 p {
   margin-top: 50px;
@@ -182,13 +175,12 @@ ul h3 {
 }
 
 .main-img01 {
-  margin-left: 590px;
+  margin-left: 584px;
   margin-top: -800px;
 }
 
-.img06{
+.img06 {
   margin-top: -530px;
-
 }
 
 .main-img02 {
@@ -223,11 +215,7 @@ ul h3 {
   font-size: 48px;
   line-height: 51.02px;
   background: linear-gradient(to bottom, transparent 65%, #fdc221 50%);
-
-
 }
-
-
 
 .Heding02 img {
   margin-left: 850px;
@@ -252,9 +240,9 @@ ul h3 {
   transition: transform 0.5s;
 }
 
-.boxes .border:hover{
+.boxes .border:hover {
   cursor: pointer;
-  transform: scale(1.1);
+  transform: scale(1.07);
 }
 
 .boxes .border img {
@@ -270,10 +258,8 @@ ul h3 {
 }
 
 .boxes .web-Development-box2 .border img {
-  background-color: #FFEED4;
-  ;
+  background-color: #ffeed4;
 }
-
 
 .boxes .border p span {
   font-size: 16px;
@@ -293,80 +279,54 @@ ul h3 {
 
 .section02 {
   border-top-right-radius: 500px;
-  margin-top: 170px;
-  padding-bottom: 80px;
+  margin-top: 160px;
+  padding-bottom: 30px;
   padding-top: 30px;
   background-color: #ecf7ff;
   width: 1250px;
 }
 
-.ecilpse{
+.ecilpse {
   position: absolute;
   margin-top: -200px;
-  
 }
 
-.boxes{
+.boxes {
   padding: 20px;
   width: 1110px;
   overflow-x: scroll;
 }
 
-.boxes::-webkit-scrollbar{
+.boxes::-webkit-scrollbar {
   display: none;
-
 }
 
-
-
-
-
-
-#next-btn{
+#next-btn {
   border: 2px solid black;
   padding: 10px;
   border-radius: 100px;
   margin-left: 160px;
   cursor: pointer;
   transition: 0.3s ease-in-out;
-
 }
 
-#next-btn:hover{
+#next-btn:hover {
   background-color: #64646454;
   border: 2px solid black;
-
 }
 
-
-#back-btn{
+#back-btn {
   border: 2px solid #00000054;
   padding: 10px;
   border-radius: 100px;
   margin-left: -85px;
   cursor: pointer;
   transition: 0.3s ease-in-out;
-
 }
 
-#back-btn:hover{
+#back-btn:hover {
   background-color: #64646454;
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .section03 {
   margin-left: 750px;
@@ -395,11 +355,10 @@ h1 .highlight-word-03 {
   font-size: 48px;
   line-height: 51.02px;
   position: relative;
-
 }
 
-h1 .highlight-word-03::before{
-  content: ""; 
+h1 .highlight-word-03::before {
+  content: "";
   position: absolute;
   left: 12%;
   bottom: 16px;
@@ -414,11 +373,10 @@ h1 .highlight-word-04 {
   font-size: 48px;
   line-height: 51.02px;
   position: relative;
-
 }
 
-h1 .highlight-word-04::before{
-  content: ""; 
+h1 .highlight-word-04::before {
+  content: "";
   position: absolute;
   left: 10%;
   bottom: 16px;
@@ -433,11 +391,10 @@ h1 .highlight-word-06 {
   font-size: 48px;
   line-height: 51.02px;
   position: relative;
-
 }
 
-h1 .highlight-word-06::before{
-  content: ""; 
+h1 .highlight-word-06::before {
+  content: "";
   position: absolute;
   left: 2%;
   bottom: 16px;
@@ -511,6 +468,12 @@ h1 .highlight-word-06::before{
   padding-right: 5px;
   padding-bottom: 20px;
   box-shadow: 0px 0px 41px -12px rgba(0, 0, 0, 0.22);
+  transition: transform 0.5s;
+}
+
+.section04-boxes .box:hover {
+  cursor: pointer;
+  transform: scale(1.04);
 }
 
 .section04-boxes .box img {
